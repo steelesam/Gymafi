@@ -1,0 +1,581 @@
+body {
+    height: 100% !important;
+    width: 100% !important;
+    font-family: 'Montserrat', sans-serif !important;
+    /*background: rgb(19, 18, 18) !important;*/
+    background: #222221 !important;
+}
+
+/* Navbar Stuff */
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li  {
+    padding-right: 20px;
+}
+
+.nav-link {
+
+    font-size: 1em !important;
+    color:  whitesmoke !important;
+    font-weight: bold !important;
+}
+.nav-link:hover {
+    color: #ffc34d !important;
+}
+
+.fa-user{
+    color: #ffc34d;
+}
+
+
+
+/* Image slider/Landing page*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+   position: absolute;
+   top: 46%;
+   transform: translateY(-50%);
+}
+
+.carousel-caption h1  {
+    font-size: 100px;
+    color: whitesmoke;
+   text-shadow: 5px 5px 10px #000;
+   letter-spacing: 0.2em;
+}
+
+.display-2 {
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px #000;
+    letter-spacing: 0.1em;
+}
+
+.carousel-caption h2 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px #000;
+    letter-spacing: 0.25em;
+    padding-bottom: 15px;
+}
+
+.carousel-caption h4 {
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px #000;
+    letter-spacing: 0.3em;
+    padding-bottom: 20px;
+}
+
+/*Congratulations section*/
+
+.mycongrats{
+    padding-top: 65px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+    background-image: url(images/blurredback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.mythree {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+
+.special {
+    color: whitesmoke;
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+.yogaman {
+    height: auto;
+    margin: 0;
+}
+
+.fa-check-circle{
+    color: rgb(6, 165, 6);
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    transform: scale(1.1); 
+    }
+
+.lead {
+    padding-left: 15px;
+    font-weight: 800 !important;
+}
+
+#firstline {
+    font-size: 32px;
+}
+
+.jumbotron{
+    padding: 1rem !important;
+    border-radius: 0px !important;
+   
+}
+#myjumb {
+    margin-bottom: 0rem !important;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto !important;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.welcome hr {
+    border-top: solid #ddcaca;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #222221!important;
+    margin-bottom: 20px !important; 
+}
+.card-body {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.currentprofile {
+    text-align: center;
+}
+
+#diarytable{
+    margin-bottom: 200px;
+}
+
+
+.fa-apple-alt {
+    color: rgb(6, 165, 6);
+}
+
+.fa-chart-line {
+    color: #c01818;
+}
+
+.fa-calendar-alt{
+    color: #c01818;
+}
+
+.fa-sign-out-alt{
+    color: #ffc34d;
+}
+
+.fa-phone{
+    color: #3f7cec;
+}
+
+.fa-signature{
+    color: #3f7cec;
+}
+
+.fa-ruler{
+    color: #c01818;
+}
+
+.fa-balance-scale{
+    color: #4fd855;
+}
+
+.fa-venus-mars{
+    color: #e483d4;
+}
+
+.fa-running{
+    color: #2f9b04;
+}
+
+.fa-weight-hanging{
+    color: #3f7cec;
+}
+
+.fa-file-upload{
+    color: #ffc34d;
+}
+
+#squatfav{
+    color: #a73abd;
+}
+
+#firstnamesig{
+    color: #ffc34d;
+}
+
+#editprofbut{
+    margin-bottom: 50px;
+}
+
+.fa-apple-alt, .fa-dumbbell, .fa-chart-line, .fa-calendar-alt, .fa-phone, .fa-sign-out-alt, 
+.fa-signature, .fa-ruler, .fa-balance-scale, .fa-venus-mars, .fa-running, .fa-weight-hanging,
+.fa-file-upload {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-file-image{
+    color: #ffc34d;
+}
+
+.container-fluid .padding img{
+    width: 100%;
+    height: auto;
+}
+
+.mycontact hr {
+    border-top: solid #ddcaca;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+
+}
+
+.fa-google-plus-g, 
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-f,
+.fa-linkedin{
+    color: #ffc34d;
+}
+
+
+
+.fa-plug {
+    color:#ffc34d; 
+}
+
+.col-12 h2 {
+    padding-top: 70px;
+    font-weight: 800;
+}
+
+.fa-dumbbell{
+    color:#ffc34d !important;
+}
+
+.row .text-center .col-md-4 {
+    background-color: #474646;
+    margin-bottom: 0px;
+    padding-bottom: -200px;
+}
+
+.row .text-center .col-md-4 h4 {
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.row .text-center .col-md-4 img {
+    padding-top: 80px;
+}
+
+.row .text-center .col-md-4 p {
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+hr.white {
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.myfood:hover,
+.mytrain:hover,
+.mytrack:hover {
+    transition: 0.4s ease-in;
+    color: #ffc34d;
+}
+
+.display-4 {
+    font-weight: 900 !important;
+}
+
+/* About page */
+.myspecialities{
+    padding-top: 45px;
+    color: whitesmoke;
+    background-image: url(images/yogaback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.myabouttext {
+    padding-bottom: 20px;
+    
+}
+
+#smart {
+    text-align: left;
+    margin-left: 24rem;
+}
+
+.aboutwelcome{
+    width: 75%;
+    margin: 0 auto !important;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.aboutwelcome hr {
+    border-top: solid #ddcaca;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-heartbeat {
+    color: #ffc34d;
+}
+
+/* Contact Page*/
+
+.mycontact{
+    padding-top: 45px;
+    color: whitesmoke;
+    background-image: url(images/contactbacknew.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.contactwelcome{
+    width: 75%;
+    margin: 0 auto !important;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.phonemail {
+    font-size: 25px;
+}
+
+#socialhead {
+    padding-top: 0; 
+}
+
+.mycontacttext {
+    padding-bottom: 30px;
+    
+}
+
+/* Login Page*/
+
+.myloginpage{
+    padding-top: 100px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+    background-image: url(images/logback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+#registerbutton{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.fa-key {
+    color: #ffc34d !important;
+}
+
+.fa-envelope{
+    color: #ffc34d !important;
+}
+
+.emailreg {
+    margin-top: 1rem;
+}
+
+#incorrectpass{
+    margin-bottom: 190px;
+    margin-top: -255px;
+}
+
+#space{
+    margin-bottom: 250px;
+}
+
+.regpad{
+    padding-bottom: 70px !important;
+}
+
+/*Welcome/Post Login page*/
+.postloginpage{
+    padding-top: 45px;
+    color: whitesmoke;
+    background-image: url(images/welcomepageback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+#youarelogged h3{
+    margin-top: 30px;
+}
+
+
+
+
+
+@media (max-width: 992px){
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+
+    #smart {
+        text-align: left;
+        margin-left: 17rem;
+    }
+
+    }
+    @media (max-width: 768px){
+        .carousel-caption {
+            top: 45%;
+         }
+         
+         .carousel-caption h1  {
+             font-size: 60px;
+             color: whitesmoke;
+            text-shadow: 5px 5px 10px #000;
+            letter-spacing: 0.1em;
+            
+         }
+         
+         .display-2 {
+             color: whitesmoke;
+             text-shadow: 5px 5px 10px #000;
+             letter-spacing: 0.1em;
+             
+         
+         }
+         .carousel-caption h2 {
+             font-size: 25px;
+             color: whitesmoke;
+             text-shadow: 5px 5px 10px #000;
+             letter-spacing: 0.1em;
+             padding-bottom: 5px;
+         }
+         
+    
+         .carousel-caption .btn {
+             font-size: 95%;
+             padding: 8px 14px;
+         }
+    
+         .display-4 {
+             font-size: 200%;
+         }
+    
+         .social a {
+            font-size: 2.5em;
+            padding: 1.2rem;
+        
+        }
+
+        #smart {
+            text-align: left;
+            margin-left: 0;
+        }
+        
+    }
+    @media (max-width: 576px){
+        .carousel-caption {
+            top: 40%;
+         }
+         
+         .carousel-caption h1  {
+             font-size: 40px;
+             color: whitesmoke;
+            text-shadow: 5px 5px 10px #000;
+            letter-spacing: 0.1em;
+            
+         }
+         
+         .display-2 {
+             color: whitesmoke;
+             text-shadow: 5px 5px 10px #000;
+             letter-spacing: 0.1em;
+             
+         
+         }
+         .carousel-caption h2 {
+             font-size: 20px;
+             color: whitesmoke;
+             text-shadow: 5px 5px 10px #000;
+             letter-spacing: 0.1em;
+             padding-bottom: 5px;
+         }
+    
+         .carousel-caption .btn {
+            font-size: 85%;
+            padding: 4px 8px;
+        }
+    
+        .carousel-indicators {
+            display: none;
+        }
+    
+        .display-4 {
+            font-size: 40%;
+        }
+        .mycongrats h1{
+            font-size: 160%;
+        }
+
+        .myspecialities h1{
+            font-size: 160%;
+        }
+    
+        .social a {
+           font-size: 2rem;
+           padding: 0.7rem;
+       
+       }
+
+       #smart {
+        text-align: left;
+        margin-left: 0;
+        
+        }
+    }
+
